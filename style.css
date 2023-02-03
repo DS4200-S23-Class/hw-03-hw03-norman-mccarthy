@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+}
+
+h1 { 
+    text-align: center;
+}
+
+#vis-marks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
