@@ -11,16 +11,14 @@
 
 <body>
     <h1> hw-03: Interactive Webpage, and Marks & Channels </h1>
-
     <div id="vis-marks"> 
-        <div class="column"> 
-            <!-- visualizations -->
-            <img src="img/vis1.png">
-            <img src="img/vis2.png">
-        </div>
-        <div class="'column">
-            <!-- marks and channels -->
-            <h3> Marks </h3>
+        <table id="vis-marks-table">
+            <tr>
+                <td>
+                    <img src="img/vis1.png">
+                </td>
+                <td>
+                    <h3> Marks </h3>
             <ul>
                 <li> Area: The data is shown with respect to specific 
                     states relative to spacing as well as showing the 
@@ -57,14 +55,99 @@
                          with these political parties historically </li>
                 </ul>
             </ul>
-
-        </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="img/vis2.png">
+                </td>
+                <td>
+                    <h3>Marks</h3>
+        <ul>
+            <li>Points: point represents a batted ball</li>
+        </ul>
+        <h3>Channels</h3>
+        <ul>
+            <li>Color: Saturation and Hue</li>
+            <ul>
+                <li>
+                    Colors represent how above or below average the ball's scoring value is
+                </li>
+                <li>
+                    This is a good color map. Pink represents a ball that has below-average scoring value, and orange represents above-average scoring value. Within each color, there are varying saturations to show how above or below average each ball is.
+                </li>
+            </ul>
+        </ul>
+        <h3>Colormap</h3>
+        <ul>
+            <li>Divergent</li>
+            <ul>
+                <li>
+                    Colors represent how above or below average a ball's scoring value is, with white representing the average.
+                </li>
+                <li>
+                    This is a good mapping as it shows which balls are below/above average and has a scale as to how below/above average each ball is.
+                </li>
+                <li>
+                    It could also be argued that each side of the average is Sequential, as there is varying saturation depending on how far from the average the ball's scoring value is.
+                </li>
+            </ul>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/vis3.png">
+            </td>
+            <td>
+                <h3>Marks</h3>
+                <ul>
+                    <li>Points: each point represents a movie</li>
+                </ul>
+                <h3>Channels</h3>
+                <ul>
+                    <li>Color: Hue</li>
+                    <ul>
+                        <li>Each color represents the genre type of the movie, which is a categorical attribute.</li>
+                        <li>This is a good color map because each genre is represented by its own color, with a legend to show what color each genre is associated with.</li>
+                    </ul>
+                    <li>Position: Horizontal and Verical</li>
+                    <ul>
+                        <li>The position of each point is determined by its critic rating and people (general watchers) rating, and represents quantative data as each rating is a number</li>
+                        <li>This is a good mapping because you can see the critic scores and people scores in relation to each other, and easily compare how movies were received by different groups.</li>
+                    </ul>
+                </ul>
+                <h3>Colormap</h3>
+                <ul>
+                    <li>Categorical</li>
+                    <ul>
+                        <li>The color map is representing the categorical attribute of movie genres, with each movie genre having its own color
+                        </li>
+                        <li>
+                            This is a good mapping because each genre has its own color that aren't chosen to be representing a range, and you can compare how movies of different genres were received. 
+                        </li>
+                    </ul>
+                </ul>
+            </td>
+        </tr>
+        </table>
     </div>
-    <h1> Acknoledgements </h1>
+    <h1> Acknowledgements </h1>
     <div>
-        <a href="https://www.w3schools.com/howto/howto_css_two_columns.asp"> 
+        <ul>
+            <li>
+                <a href="https://www.w3schools.com/howto/howto_css_two_columns.asp"> 
             Make 2 Columns
         </a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/html/html_table_padding_spacing.asp">
+            Table padding
+        </a>
+            </li>
+            <li>
+                <a href="https://www.kaggle.com/datasets/thedevastator/rotten-tomatoes-top-movies-ratings-and-technical">Rotten Tomatos Dataset</a>
+            </li>
+        </ul>
     </div>
 </body>
 
