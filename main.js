@@ -1,4 +1,4 @@
-lightMode = true;
+let lightMode = true;
 
 // changes the page between light and dark mode
 function buttonClick() {
